@@ -47,8 +47,6 @@ This means the model explains a meaningful amount of the variation in `Units Sol
 
 The feature importance results show that `Price` is the strongest predictor of `Units Sold`, followed by `Discount`. This suggests that pricing and discount strategy have a strong relationship with sales volume in this dataset.
 
-For a production machine learning project, it would be better to train and compare multiple models before choosing the final one. This project focuses on validating the agent workflow using one model for practice and demonstration.
-
 ---
 
 ## Project Workflow
@@ -124,8 +122,6 @@ To understand it well, you should have some basic to intermediate experience bui
 - Evaluating regression metrics
 - Interpreting feature importance
 
-The agents help automate the workflow, but the user still needs enough data science understanding to review whether the output makes sense.
-
 ---
 
 ## Current Limitation
@@ -187,15 +183,6 @@ Main dependencies:
 
 ---
 
-## Files
-
-- `Automating Data Science with CrewAI Agents.ipynb`: Main notebook for the agentic data science workflow.
-- `notebookExecutor.py`: Custom tool that lets agents execute Python code inside the notebook.
-- `Supplement_Sales_Weekly.csv`: Dataset used for the regression project.
-- `requirements.txt`: Python dependencies.
-- `README.md`: Project overview and documentation.
-
----
 
 ## Author
 
